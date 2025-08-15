@@ -14,7 +14,7 @@ function corsHeaders() {
 export default {
   async fetch(req: Request, env: Env): Promise<Response> {
     // ---- set your upstream endpoint here ----
-    const upstream = env.TARGET_URL ?? 'https://script.google.com/macros/s/DEPLOYMENT_ID/exec';
+    const upstream = env.TARGET_URL ?? 'https://script.google.com/macros/s/AKfycbwOjHpDltCIM21wrKz_TAl9Q_kyC8ifMFrnA8BB7TFogw_UpbRAxZdu6UgMbQA_Q3h-/exec';
 
     // Preflight for safety (not strictly needed for server-to-server calls)
     if (req.method === 'OPTIONS') {
