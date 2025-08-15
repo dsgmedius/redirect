@@ -1,5 +1,5 @@
 {
-  "name": "gpt-proxy",
+  "name": "proxy-server",
   "main": "src/index.ts", 
   "compatibility_date": "2025-08-15",
   "workers_dev": true
